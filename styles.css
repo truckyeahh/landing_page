@@ -1,0 +1,16 @@
+.body {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1F2937;
+font-family: Roboto, sans-serif;
+color: white;
+}
+
+
+
+.header {
+display: flex;
+
+}
+
