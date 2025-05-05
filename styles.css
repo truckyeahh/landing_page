@@ -5,12 +5,13 @@ background-color: #1F2937;
 font-family: Roboto, sans-serif;
 color: white;}
 
+/* Header */
 .header, .links {
 display: flex;
 justify-content: space-around;
 gap: 30px;}
 
-.header-logo {
+.header-logo a {
 font-size: 24px;
 color: #F9FAF8;}
 
@@ -19,9 +20,7 @@ font-size: 18px;
 color: #E5E7EB;
 text-decoration: none;}
 
-.links a {
-}
-
+/*main*/
 .mid1{
 display: flex;
 justify-content: space-evenly;
@@ -50,9 +49,33 @@ gap: 0px;}
 .mid1 img {
 border-radius: 10px;}
 
-.text p {
+.mid1 .image-footer {
+display: flex;
+gap: 7px;
+}
+
+.text {
 color: #E5E7EB;
 font-size: 18px;}
+
+#about.text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+gap: 28px;
+width: 777px;
+color:black;
+}
+
+.top, .pic {
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+}
 
 .mid2 {
 display: flex;
@@ -131,8 +154,11 @@ margin: 0px;
 border: #F9FAF8 solid 4px;
 border-radius: 10px;}
 
-button a {
+a {
 text-decoration: none;
+}
+
+button a {
 color: #F9FAF8;}
 
 footer {
